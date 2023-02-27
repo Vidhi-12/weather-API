@@ -95,3 +95,11 @@
 .last-city{
   color: blue;
 }
+
+.city-name{
+  background-color: skyblue;
+}
+
+.details-container{
+  margin: 20px 0 10px 0;
+}
