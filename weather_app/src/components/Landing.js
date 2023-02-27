@@ -6,7 +6,6 @@ export default function Landing(){
     const [weatherData, setWeatherData] = useState([]);
     const [err, setErr] = useState("");
     const [data, setData] = useState([]);
-    const key = '4b073b2304654be9367ea51487771e8f';
     // console.log(weatherData.length);
 
     // const changeSearch = (e) => {
@@ -16,8 +15,6 @@ export default function Landing(){
 
     const handleSearch = (e) => {
         if(e.key === "Enter"){
-            
-            // console.log("hello");
             
             const city = searchCity.toLowerCase();
             // console.log(err === "");
